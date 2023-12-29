@@ -26,13 +26,28 @@ img{
     width:100px;
     height:100px;
     border-radius:50%;
+    
 }
+
 h2{
     background-image: linear-gradient(to right, #ee00ff 0%, #fbff00 100%);
     color: transparent;
     -webkit-background-clip: text;
     text-align:center;
     font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+}
+.imagesize {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+h4{
+    background-image: linear-gradient(to right, #ee00ff 0%, #fbff00 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align:center;
+    font-size:25px;
     font-family:'Times New Roman', Times, serif;
 }
 ul{
