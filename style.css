@@ -1,15 +1,30 @@
 
 body{
+    
     background: #4e54c8;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }    
+
+
+body{
+    background-image: url('./images/canteenPic.jpg') !important;
+    background-repeat: repeat-x repeat-y;
+    /* background-size: cover; */
+   
+   
+}
+
+
 .menu-card-container{
     margin: 20px 15%;
     width:60%;
-    background: #000000; 
+   
+ background: #000000; 
     background: -webkit-linear-gradient(to right, #434343, #000000);
-    background: linear-gradient(to right, #434343, #000000); 
+    background: linear-gradient(to right, #434343, #000000);  
     padding:5%;
     border-radius: 40px;
 }
@@ -28,7 +43,11 @@ img{
     border-radius:50%;
     
 }
-
+.imgpay{
+    width: 80px;
+        height: 80px;
+        
+}
 h2{
     background-image: linear-gradient(to right, #ee00ff 0%, #fbff00 100%);
     color: transparent;
@@ -47,8 +66,19 @@ h4{
     color: transparent;
     -webkit-background-clip: text;
     text-align:center;
-    font-size:25px;
+    font-size:20px;
     font-family:'Times New Roman', Times, serif;
+}
+h5 {
+    background-image: linear-gradient(to right, #ee00ff 0%, #fbff00 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
 }
 ul{
     font-size: 30px;
